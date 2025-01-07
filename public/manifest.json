@@ -1,0 +1,9 @@
+{
+  "name": "Sébastien TIMONER - Hub de liens",
+  "short_name": "Seb TIMONER",
+  "description": "Portfolio professionnel de Sébastien TIMONER, développeur web",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "rgba(158, 195, 58, 1)"
+} 
