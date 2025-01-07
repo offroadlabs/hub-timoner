@@ -46,7 +46,9 @@ export function OpenSourceProjects() {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-3xl font-bold mb-8">Projets Open Source</h2>
+        <h2 className="text-3xl font-bold mb-8 text-brand-blue dark:text-brand-blue-light">
+          Projets Open Source
+        </h2>
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
