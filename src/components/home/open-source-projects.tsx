@@ -15,6 +15,13 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "snippet",
+    description:
+      "Un générateur d'images de code élégantes pour les réseaux sociaux. Transformez vos extraits de code en visuels attrayants et partageables sur X (Twitter), LinkedIn et autres plateformes. Support multi-langages et personnalisation avancée du rendu.",
+    url: "https://github.com/offroadlabs/snippet",
+    tech: ["TypeScript", "Next.js", "Sharp", "Syntax Highlighting"],
+  },
+  {
     title: "sudoku-challenge",
     description:
       "Une exploration du développement d'un même jeu de Sudoku dans différents langages et frameworks de programmation. L'objectif est de démontrer comment une même logique de jeu peut être implémentée avec différentes approches techniques.",
@@ -51,7 +58,7 @@ export function OpenSourceProjects() {
         </h2>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((project, index) => (
           <motion.div
             key={project.title}
