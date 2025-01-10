@@ -1,6 +1,9 @@
 import { MapPin, Mail } from "lucide-react";
 import Image from "next/image";
 import { CalendlyButton } from "@/components/ui/calendly-button";
+import { GitHubIcon } from "@/components/icons/github-icon";
+import { LinkedInIcon } from "@/components/icons/linkedin-icon";
+import { XIcon } from "@/components/icons/x-icon";
 
 export function HeroSection() {
   return (
@@ -28,6 +31,32 @@ export function HeroSection() {
             </span>
           </p>
           <div className="flex flex-col items-center gap-6">
+            <div className="flex items-center justify-center gap-4">
+              <a
+                href="https://github.com/offroadlabs"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-brand-green transition-colors"
+              >
+                <GitHubIcon className="w-6 h-6" />
+              </a>
+              <a
+                href="https://linkedin.com/in/timoner"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-brand-blue transition-colors"
+              >
+                <LinkedInIcon className="w-6 h-6" />
+              </a>
+              <a
+                href="https://twitter.com/sebtimoner"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-[#000000] dark:hover:text-white transition-colors"
+              >
+                <XIcon className="w-6 h-6" />
+              </a>
+            </div>
             <div className="flex items-center justify-center gap-4 text-muted-foreground">
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-brand-blue" />
