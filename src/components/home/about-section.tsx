@@ -65,15 +65,16 @@ export function AboutSection() {
               transition={{ duration: 0.7, delay: 0.2 }}
             >
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Passionné par le développement logiciel depuis plus de 20 ans,
-                je combine expertise technique et vision stratégique pour créer
-                des solutions innovantes et performantes.
+                Passionné par le développement logiciel, j’accompagne les
+                équipes techniques dans la conception et la réalisation de
+                solutions sur mesure, robustes et évolutives.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                En tant que CTO et Lead Developer, je guide les équipes vers
-                l&apos;excellence technique tout en assurant l&apos;alignement
-                avec les objectifs business. Mon approche est centrée sur la
-                qualité, la scalabilité et l&apos;innovation continue.
+                Fort d’une expérience polyvalente en développement full-stack et
+                en gestion de projets complexes, je veille à l’excellence
+                technique tout en favorisant la collaboration et l’alignement
+                avec les objectifs métiers. Mon approche est centrée sur la
+                qualité, la scalabilité et l’innovation continue.
               </p>
             </motion.div>
           </motion.div>
