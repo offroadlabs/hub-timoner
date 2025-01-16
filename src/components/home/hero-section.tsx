@@ -5,6 +5,7 @@ import { GitHubIcon } from "@/components/icons/github-icon";
 import { LinkedInIcon } from "@/components/icons/linkedin-icon";
 import { XIcon } from "@/components/icons/x-icon";
 import { BlogIcon } from "@/components/icons/blog-icon";
+import { PhoneButton } from "@/components/ui/phone-button";
 
 export function HeroSection() {
   return (
@@ -84,6 +85,7 @@ export function HeroSection() {
                   sebastien@offroadlabs.com
                 </a>
               </div>
+              <PhoneButton />
             </div>
             <CalendlyButton calendlyUrl="https://calendly.com/timoner/prise-contact" />
           </div>
