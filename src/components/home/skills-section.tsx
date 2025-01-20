@@ -25,14 +25,7 @@ const skillCategories: SkillCategory[] = [
   },
   {
     title: "Frontend",
-    skills: [
-      "Tailwind",
-      "React",
-      "Next.js",
-      "TypeScript",
-      "FrankenPHP",
-      "Chrome Extensions",
-    ],
+    skills: ["Tailwind", "React", "Next.js", "TypeScript", "Chrome Extensions"],
   },
   {
     title: "Backend & Bases de données",
@@ -44,6 +37,7 @@ const skillCategories: SkillCategory[] = [
       "MongoDB",
       "Nginx",
       "Apache",
+      "FrankenPHP",
     ],
   },
   {
@@ -61,12 +55,13 @@ const skillCategories: SkillCategory[] = [
   {
     title: "Architecture & Méthodologies",
     skills: [
+      "Lead Developer",
+      "Gestion de projet technique",
+      "Spécifications fonctionnelles",
+      "Agilité",
       "Microservices",
       "API REST",
-      "Gestion de projet technique",
-      "Lead Developer",
       "Architecture logicielle",
-      "Spécifications fonctionnelles",
     ],
   },
 ];
