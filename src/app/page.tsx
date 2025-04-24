@@ -3,7 +3,6 @@ import { HeroSection } from "@/components/home/hero-section";
 import { OpenSourceProjects } from "@/components/home/open-source-projects";
 import { SkillsSection } from "@/components/home/skills-section";
 import { AboutSection } from "@/components/home/about-section";
-import { ProductsSection } from "@/components/home/products-section";
 import { Footer } from "@/components/layout/footer";
 import { ColoredSection } from "@/components/layout/colored-section";
 
@@ -27,10 +26,6 @@ export default function HomePage() {
       </ColoredSection>
 
       <ColoredSection variant="primary">
-        <ProductsSection />
-      </ColoredSection>
-
-      <ColoredSection variant="white">
         <SkillsSection />
       </ColoredSection>
 
